@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2024-10-03 15:14:18 by epics_services-->
+<display version="2.0.0">
+  <name>modbusread</name>
+  <width>400</width>
+  <height>20</height>
+  <widget type="slide_button" version="2.0.0">
+    <name>Slide Button</name>
+    <pv_name>$(PV)</pv_name>
+    <label>$(PV)</label>
+    <height>20</height>
+  </widget>
+</display>

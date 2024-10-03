@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2024-10-03 16:48:56 by epics_services-->
+<display version="2.0.0">
+  <name>PLC IPR</name>
+  <widget type="template" version="2.0.0">
+    <name>Template/Instance</name>
+    <file>_plc_ai.bob</file>
+    <instances>
+      <instance>
+        <macros>
+          <PV>Bldg_7627:RHTT1:Hum_Ind</PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <PV>Bldg_7627:RHTT1:T_Ind</PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <PV>Bldg_7627:RHTT2:Hum_Ind</PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <PV>Bldg_7627:RHTT2:T_Ind</PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <PV>Bldg_7627:RHTT3:Hum_Ind</PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <PV>Bldg_7627:RHTT3:T_Ind</PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <PV>Bldg_7627:RHTT4:Hum_Ind</PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <PV>Bldg_7627:RHTT4:T_Ind</PV>
+        </macros>
+      </instance>
+    </instances>
+    <height>230</height>
+  </widget>
+  <widget type="template" version="2.0.0">
+    <name>Template/Instance_1</name>
+    <file>_plc_bi_green.bob</file>
+    <instances>
+      <instance>
+        <macros>
+          <PV>ECH_HVPS:CSS:Sys_Sts</PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <PV>ECH_HVPS:Light:Grn_Sts</PV>
+        </macros>
+      </instance>
+    </instances>
+    <y>230</y>
+    <height>50</height>
+  </widget>
+  <widget type="template" version="2.0.0">
+    <name>Template/Instance_2</name>
+    <file>_plc_bi_orange.bob</file>
+    <instances>
+      <instance>
+        <macros>
+          <PV>ECH_HVPS:Light:Org_Sts</PV>
+        </macros>
+      </instance>
+    </instances>
+    <y>290</y>
+    <height>20</height>
+  </widget>
+  <widget type="template" version="2.0.0">
+    <name>Template/Instance_3</name>
+    <file>_plc_bi_red.bob</file>
+    <instances>
+      <instance>
+        <macros>
+          <PV>ECH_HVPS:Light:Red_Sts</PV>
+        </macros>
+      </instance>
+    </instances>
+    <y>320</y>
+    <height>20</height>
+  </widget>
+  <widget type="template" version="2.0.0">
+    <name>Template/Instance_4</name>
+    <file>_plc_bi_green.bob</file>
+    <instances>
+      <instance>
+        <macros>
+          <PV>ECH_HVPS:Sys:On_Sts</PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <PV>ECH_HVPS:Sys:Rdy_Sts</PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <PV>ECH_HVPS:Sys:Trip_RCmd</PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <PV>ECH_HVPS:Vlv:RetCls_RCmd</PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <PV>ECH_HVPS:Vlv:RetCls_Sts</PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <PV>ECH_HVPS:Vlv:RetOpn_RCmd</PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <PV>ECH_HVPS:Vlv:RetOpn_Sts</PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <PV>ECH_HVPS:Vlv:SupCls_RCmd"</PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <PV>ECH_HVPS:Vlv:SupCls_Sts</PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <PV>ECH_HVPS:Vlv:SupOpn_RCmd</PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <PV>ECH_HVPS:Vlv:SupOpn_Sts</PV>
+        </macros>
+      </instance>
+    </instances>
+    <y>350</y>
+    <height>320</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button</name>
+    <pv_name>ECH_HVPS:Vlv:RetCls_Cmd</pv_name>
+    <x>410</x>
+    <y>440</y>
+    <width>120</width>
+    <height>50</height>
+    <off_label>Closed</off_label>
+    <on_label>Open</on_label>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <text>ECH_HVPS:Vlv:RetCls_Cmd</text>
+    <x>540</x>
+    <y>460</y>
+    <width>210</width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_1</name>
+    <text>ECH_HVPS:Vlv:RetOpn_Cmd</text>
+    <x>540</x>
+    <y>520</y>
+    <width>210</width>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_4</name>
+    <pv_name>ECH_HVPS:Vlv:RetOpn_Cmd</pv_name>
+    <x>410</x>
+    <y>500</y>
+    <width>120</width>
+    <height>50</height>
+    <off_label>Closed</off_label>
+    <on_label>Open</on_label>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_2</name>
+    <text>ECH_HVPS:Vlv:SupCls_Cmd</text>
+    <x>540</x>
+    <y>580</y>
+    <width>210</width>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_5</name>
+    <pv_name>ECH_HVPS:Vlv:SupCls_Cmd</pv_name>
+    <x>410</x>
+    <y>560</y>
+    <width>120</width>
+    <height>50</height>
+    <off_label>Closed</off_label>
+    <on_label>Open</on_label>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_3</name>
+    <text>ECH_HVPS:Vlv:SupOpn_Cmd</text>
+    <x>540</x>
+    <y>640</y>
+    <width>210</width>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_6</name>
+    <pv_name>ECH_HVPS:Vlv:SupOpn_Cmd</pv_name>
+    <x>410</x>
+    <y>620</y>
+    <width>120</width>
+    <height>50</height>
+    <off_label>Closed</off_label>
+    <on_label>Open</on_label>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle</name>
+    <y>440</y>
+    <width>790</width>
+    <height>50</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_1</name>
+    <y>500</y>
+    <width>790</width>
+    <height>50</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_2</name>
+    <y>560</y>
+    <width>790</width>
+    <height>50</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_3</name>
+    <y>620</y>
+    <width>790</width>
+    <height>50</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <transparent>true</transparent>
+  </widget>
+</display>
