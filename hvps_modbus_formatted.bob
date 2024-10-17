@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2024-10-17 10:42:47 by Pedro-->
+<display version="2.0.0">
+  <name>ECH HVPS Modbus</name>
+  <widget type="template" version="2.0.0">
+    <name>Template/Instance</name>
+    <file>_hvps_modbus_read_reg.bob</file>
+    <instances>
+      <instance>
+        <macros>
+          <REG>0</REG>
+          <REG_PV>ActualState</REG_PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <REG>16</REG>
+          <REG_PV>TargetStateCmd</REG_PV>
+        </macros>
+      </instance>
+    </instances>
+    <y>60</y>
+    <height>50</height>
+  </widget>
+  <widget type="template" version="2.0.0">
+    <name>Template/Instance_1</name>
+    <file>_hvps_modbus_read_reg.bob</file>
+    <instances>
+      <instance>
+        <macros>
+          <REG>22</REG>
+          <REG_PV>HvpsLeakDetOk</REG_PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <REG>24</REG>
+          <REG_PV>MvSdcSsContOn</REG_PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <REG>26</REG>
+          <REG_PV>MvSfcFuseClosed</REG_PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <REG>28</REG>
+          <REG_PV>MvWbcTransfCbOn</REG_PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <REG>30</REG>
+          <REG_PV>PsmDiffCurrDetOk</REG_PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <REG>140</REG>
+          <REG_PV>AccessDoorClosed</REG_PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <REG>142</REG>
+          <REG_PV>AccessDoorLocked</REG_PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <REG>144</REG>
+          <REG_PV>EmButNotPressed</REG_PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <REG>146</REG>
+          <REG_PV>ExtPssInt</REG_PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <REG>148</REG>
+          <REG_PV>GndHookParkPosOk</REG_PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <REG>150</REG>
+          <REG_PV>GndRelClosed</REG_PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <REG>152</REG>
+          <REG_PV>GndSwClosed</REG_PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <REG>156</REG>
+          <REG_PV>LvCbOpen</REG_PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <REG>158</REG>
+          <REG_PV>MvSdcGndSwClosed</REG_PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <REG>160</REG>
+          <REG_PV>MvSfcGndSwClosed</REG_PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <REG>162</REG>
+          <REG_PV>MvWbcGndSwClosed</REG_PV>
+        </macros>
+      </instance>
+    </instances>
+    <y>440</y>
+    <height>560</height>
+  </widget>
+  <widget type="template" version="2.0.0">
+    <name>Template/Instance_2</name>
+    <file>_hvps_modbus_read_reg.bob</file>
+    <instances>
+      <instance>
+        <macros>
+          <REG>154</REG>
+          <REG_PV>GreenLightOnCmd</REG_PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <REG>164</REG>
+          <REG_PV>OrangeLightOnCmd</REG_PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <REG>166</REG>
+          <REG_PV>RedLightOnCmd</REG_PV>
+        </macros>
+      </instance>
+    </instances>
+    <x>420</x>
+    <y>150</y>
+    <height>80</height>
+  </widget>
+  <widget type="template" version="2.0.0">
+    <name>Template/Instance_3</name>
+    <file>_hvps_modbus_read_reg.bob</file>
+    <instances>
+      <instance>
+        <macros>
+          <REG>2</REG>
+          <REG_PV>FaultId</REG_PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <REG>4</REG>
+          <REG_PV>FaultTimestamp</REG_PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <REG>6</REG>
+          <REG_PV>ResetFaultCmd</REG_PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <REG>8</REG>
+          <REG_PV>SmSumWarning</REG_PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <REG>10</REG>
+          <REG_PV>SumFault</REG_PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <REG>12</REG>
+          <REG_PV>SumFaultAct</REG_PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <REG>14</REG>
+          <REG_PV>SumWarn</REG_PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <REG>18</REG>
+          <REG_PV>WarnId</REG_PV>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <REG>20</REG>
+          <REG_PV>WarnTimestamp</REG_PV>
+        </macros>
+      </instance>
+    </instances>
+    <y>150</y>
+    <height>260</height>
+  </widget>
+  <widget type="tank" version="2.0.0">
+    <name>Tank</name>
+    <pv_name>MPEX:ECH:HVPS:PsmTrafoT401TempL1</pv_name>
+    <x>440</x>
+    <y>310</y>
+    <width>120</width>
+    <height>220</height>
+    <minimum>ca://MPEX:ECH:HVPSPsmTrafoT401TempL1_MIN</minimum>
+    <maximum>ca://MPEX:ECH:HVPSPsmTrafoT401TempL1_MAX</maximum>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <text>T401Temp L1</text>
+    <x>460</x>
+    <y>290</y>
+  </widget>
+  <widget type="tank" version="2.0.0">
+    <name>Tank_1</name>
+    <pv_name>MPEX:ECH:HVPS:PsmTrafoT401TempL2</pv_name>
+    <x>560</x>
+    <y>310</y>
+    <width>120</width>
+    <height>220</height>
+    <minimum>ca://MPEX:ECH:HVPS:PsmTrafoT401TempL2_MIN</minimum>
+    <maximum>ca://MPEX:ECH:HVPS:PsmTrafoT401TempL2_MAX</maximum>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_1</name>
+    <text>T401Temp L2</text>
+    <x>580</x>
+    <y>290</y>
+  </widget>
+  <widget type="tank" version="2.0.0">
+    <name>Tank_2</name>
+    <pv_name>MPEX:ECH:HVPS:PsmTrafoT401TempL3</pv_name>
+    <x>680</x>
+    <y>310</y>
+    <width>120</width>
+    <height>220</height>
+    <minimum>ca://MPEX:ECH:HVPS:PsmTrafoT401TempL3_MIN</minimum>
+    <maximum>ca://MPEX:ECH:HVPS:PsmTrafoT401TempL3_MAX</maximum>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_2</name>
+    <text>T401Temp L3</text>
+    <x>700</x>
+    <y>290</y>
+  </widget>
+  <widget type="tank" version="2.0.0">
+    <name>Tank_3</name>
+    <pv_name>MPEX:ECH:HVPS:PsmTrafoT402TempL1</pv_name>
+    <x>440</x>
+    <y>570</y>
+    <width>120</width>
+    <height>220</height>
+    <minimum>ca://MPEX:ECH:HVPS:PsmTrafoT402TempL1_MIN</minimum>
+    <maximum>ca://MPEX:ECH:HVPS:PsmTrafoT402TempL1_MAX</maximum>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_3</name>
+    <text>T402Temp L1</text>
+    <x>470</x>
+    <y>550</y>
+  </widget>
+  <widget type="tank" version="2.0.0">
+    <name>Tank_4</name>
+    <pv_name>MPEX:ECH:HVPS:PsmTrafoT402TempL2</pv_name>
+    <x>560</x>
+    <y>570</y>
+    <width>120</width>
+    <height>220</height>
+    <minimum>ca://MPEX:ECH:HVPS:PsmTrafoT402TempL2_MIN</minimum>
+    <maximum>ca://MPEX:ECH:HVPS:PsmTrafoT402TempL2_MAX</maximum>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_4</name>
+    <text>T402Temp L2</text>
+    <x>590</x>
+    <y>550</y>
+  </widget>
+  <widget type="tank" version="2.0.0">
+    <name>Tank_5</name>
+    <pv_name>MPEX:ECH:HVPS:PsmTrafoT402TempL3</pv_name>
+    <x>680</x>
+    <y>570</y>
+    <width>120</width>
+    <height>220</height>
+    <minimum>ca://MPEX:ECH:HVPS:PsmTrafoT402TempL3_MIN</minimum>
+    <maximum>ca://MPEX:ECH:HVPS:PsmTrafoT402TempL3_MAX</maximum>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_5</name>
+    <text>T402Temp L3</text>
+    <x>710</x>
+    <y>550</y>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_6</name>
+    <text>Water Temp In</text>
+    <x>460</x>
+    <y>810</y>
+  </widget>
+  <widget type="tank" version="2.0.0">
+    <name>Tank_6</name>
+    <pv_name>MPEX:ECH:HVPS:WaterTempIn</pv_name>
+    <x>430</x>
+    <y>830</y>
+    <width>120</width>
+    <height>220</height>
+    <minimum>ca://MPEX:ECH:HVPS:WaterTempIn_MIN</minimum>
+    <maximum>ca://MPEX:ECH:HVPS:WaterTempIn_MAX</maximum>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_7</name>
+    <text>Water Temp Out</text>
+    <x>580</x>
+    <y>810</y>
+    <width>110</width>
+  </widget>
+  <widget type="tank" version="2.0.0">
+    <name>Tank_7</name>
+    <pv_name>MPEX:ECH:HVPS:WaterTempOut</pv_name>
+    <x>550</x>
+    <y>830</y>
+    <width>120</width>
+    <height>220</height>
+    <minimum>ca://MPEX:ECH:HVPS:WaterTempOut_MIN</minimum>
+    <maximum>ca://MPEX:ECH:HVPS:WaterTempOut_MAX</maximum>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_8</name>
+    <text>Water Flow</text>
+    <x>700</x>
+    <y>810</y>
+  </widget>
+  <widget type="tank" version="2.0.0">
+    <name>Tank_8</name>
+    <pv_name>MPEX:ECH:HVPS:WaterFlowOut</pv_name>
+    <x>670</x>
+    <y>830</y>
+    <width>120</width>
+    <height>220</height>
+    <minimum>ca://MPEX:ECH:HVPS:WaterFlowOut_MIN</minimum>
+    <maximum>ca://MPEX:ECH:HVPS:WaterFlowOut_MAX</maximum>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button</name>
+    <actions>
+      <action type="open_display">
+        <description>Expert Screen</description>
+        <file>hvps_modbus.bob</file>
+        <target>replace</target>
+      </action>
+    </actions>
+    <x>650</x>
+    <y>70</y>
+    <width>130</width>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_9</name>
+    <class>TITLE</class>
+    <text>ECH HVPS MODBUS</text>
+    <x use_class="true">0</x>
+    <y use_class="true">0</y>
+    <width>240</width>
+    <font use_class="true">
+      <font name="Header 1" family="Liberation Sans" style="BOLD" size="22.0">
+      </font>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_10</name>
+    <class>SECTION</class>
+    <text>Device State</text>
+    <y>40</y>
+    <width>240</width>
+    <font use_class="true">
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_11</name>
+    <class>SECTION</class>
+    <text>Device Faults</text>
+    <y>130</y>
+    <width>240</width>
+    <font use_class="true">
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_12</name>
+    <class>SECTION</class>
+    <text>Device OK Checks</text>
+    <x>10</x>
+    <y>420</y>
+    <width>240</width>
+    <font use_class="true">
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_13</name>
+    <class>SECTION</class>
+    <text>Area Lighting</text>
+    <x>430</x>
+    <y>130</y>
+    <width>240</width>
+    <font use_class="true">
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_14</name>
+    <class>SECTION</class>
+    <text>Temperatures &amp; Water Flow</text>
+    <x>430</x>
+    <y>260</y>
+    <width>240</width>
+    <font use_class="true">
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+  </widget>
+</display>
